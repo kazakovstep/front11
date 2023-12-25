@@ -1,0 +1,53 @@
+.div input[type="checkbox"]{
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+.div{
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.5rem;
+    color: var(--primary-black)!important;
+    width: fit-content;
+}
+
+.div:hover{
+    cursor: pointer;
+}
+
+.category{
+    background: #D0F8FF;
+    transition: all 300ms ease-in-out;
+}
+
+.tag{
+    background: #E7CEFF;
+    transition: all 300ms ease-in-out;
+}
+
+.input{
+    display: none;
+}
+.category,.wrapper .tag  {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.category:checked+label {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--secondary-blue);
+    font-weight: 700;
+}
+
+.tag:checked+label {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--secondary-purple);
+    font-weight: 700;
+}
+

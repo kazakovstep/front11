@@ -1,0 +1,24 @@
+@media (max-width: 900px) {
+    width: 100%;
+}
+.captcha{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-white);
+    border-radius: 1.25rem;
+    border: var(--primary-dark-grey) 1px solid;
+}
+.form{
+    display: flex;
+    gap:1rem;
+}
+.form button{
+    width:40%;
+}
+.copy{
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

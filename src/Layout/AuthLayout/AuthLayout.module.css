@@ -1,0 +1,18 @@
+@media (max-width: 960px) {
+  .auth_page {
+    width: 100% !important;
+  }
+
+  .sg {
+    display: none !important;
+  }
+}
+.logo {
+    margin: 100px 100px;
+}
+.auth_page {
+  width: 50%;
+}
+.sg{
+    width: 50% !important;
+}

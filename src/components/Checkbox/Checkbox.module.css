@@ -1,0 +1,26 @@
+.wrapper input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid var(--primary-black);
+}
+
+.wrapper input[type="checkbox"]:checked {
+    -webkit-appearance: none;
+    appearance: none;
+    content: url("./check.svg");
+}
+.wrapper input[type="checkbox"]:hover{
+    cursor: pointer;
+}
+
+.circle {
+    border-radius: 100%;
+}
+.square {
+    border-radius: 5px;
+}
+
+
+
